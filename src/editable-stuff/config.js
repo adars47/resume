@@ -131,12 +131,12 @@ const experiences = {
     {
       role: 'Back-End Enginner',// Here Add Company Name
       companylogo: require('../assets/img/tekkon.jpg'),
-      date: 'OCT 2020 – Present',
+      date: 'SEPT 2019 – OCT 2020'
     },
     {
       role: 'Back-End Enginner',
       companylogo: require('../assets/img/fritsgo.png'),
-      date: 'SEPT 2019 – OCT 2020',
+      date: 'OCT 2020 – Present'    
     },
   ]
 }
