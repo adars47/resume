@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/adarsha.png"),
   imageSize: 375,
   message:
-    "Hello, my name is Adarsha Nepal. I graduated from Tribhuwan University with a degree in Information Management. I work as a backend-enginner but find myself to be equally involved in DEVOPS. My hobbies include tinkering with IOT devices and working on my automation projects.",
+    "Hello, my name is Adarsha Nepal. I graduated from Tribhuwan University with a degree in Information Management. I work as a backend-engineer but find myself to be equally involved in DEVOPS. My hobbies include tinkering with IOT devices and working on my automation projects.",
   resume: "https://drive.google.com/file/d/1xu6ARJnSZLTLoB982joM0e0KrVO5C5Ii/view?usp=sharing",
 };
 
@@ -129,12 +129,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Back-End Enginner',// Here Add Company Name
+      role: 'Back-End Engineer',// Here Add Company Name
       companylogo: require('../assets/img/tekkon.jpg'),
       date: 'SEPT 2019 – OCT 2020'
     },
     {
-      role: 'Back-End Enginner',
+      role: 'Back-End Engineer',
       companylogo: require('../assets/img/fritsgo.png'),
       date: 'OCT 2020 – Present'    
     },
