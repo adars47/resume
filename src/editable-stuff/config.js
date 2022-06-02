@@ -22,11 +22,11 @@ const mainBody = {
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/adars47/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/adarsha-nepal-9021bb160",
     }
+    // ,{
+    //   image: "fa-linkedin",
+    //   url: "https://www.linkedin.com/in/adarsha-nepal-9021bb160",
+    // }
   ],
 };
 
@@ -111,7 +111,7 @@ const skills = {
     { name: "Focused", value: 85 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 90 },
-    { name: "perseverance", value: 90 }
+    { name: "Perseverance", value: 90 }
   ],
 };
 
@@ -120,7 +120,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you feel like you have a opportunity which i would be perfect for. Leave me a message.",
+    "If you feel like you have an opportunity for me, please feel free to reach me at adars.nepal@gmail.com.",
   email: "adars.nepal@gmail.com",
 };
 
