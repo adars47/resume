@@ -122,7 +122,7 @@ const getInTouch = {
   message:
     "If you feel like you have an opportunity for me, please feel free to reach me at adars.nepal@gmail.com.",
   email: "adars.nepal@gmail.com",
-};
+};AA
 
 const experiences = {
   show: true,
