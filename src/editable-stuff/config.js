@@ -9,24 +9,16 @@ const mainBody = {
   firstName: "Adarsha",
   middleName: "",
   lastName: "Nepal",
-  message: "Tech enthusiast with a passion for everything tech. ",
+  message: "Software Engineer",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/adars47",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/adars47",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/adars47/",
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/adarsha-nepal-9021bb160",
     }
-    // ,{
-    //   image: "fa-linkedin",
-    //   url: "https://www.linkedin.com/in/adarsha-nepal-9021bb160",
-    // }
   ],
 };
 
@@ -44,13 +36,14 @@ const mainBody = {
 //     i.e resume: require("../editable-stuff/resume.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
+const yoe = (new Date().getFullYear())-2019-1;
 const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/adarsha.png"),
   imageSize: 375,
   message:
-    "Hello, my name is Adarsha Nepal. I graduated from Tribhuwan University with a degree in Information Management. I work as a backend-engineer but find myself to be equally involved in DEVOPS. My hobbies include tinkering with IOT devices and working on my automation projects.",
+    "I have been working in the software development industry for "+yoe+" years now. Eventhough my focus has been backend technology, I have experience with react and i am interested in system design. My hobbies include hiking, self hosting tools on my homelab and Internet of things.",
   resume: "https://drive.google.com/file/d/1xu6ARJnSZLTLoB982joM0e0KrVO5C5Ii/view?usp=sharing",
 };
 
@@ -96,14 +89,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "PHP", value: 100 },
-    { name: "SQL", value: 100 },
+    { name: "PHP", value: 90 },
+    { name: "SQL", value: 80 },
+    { name: "React", value: 70 },
     { name: "Data Structures", value: 85 },
-    { name: "AWS and Terraform", value: 80 },
-    { name: "Serverless", value: 80 },
+    { name: "Cloud Computing", value: 80 },
     { name: "No-Sql databases", value: 75 },
     { name: "Networking and protocols", value: 80 },
-    { name: "Node JS", value: 65 },
+    { name: "System Design", value: 65 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 100 },
@@ -120,7 +113,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you feel like you have an opportunity for me, please feel free to reach me at adars.nepal@gmail.com.",
+    "If you feel like you have an opportunity for me, please feel free to reach out!",
   email: "adars.nepal@gmail.com",
 };
 
@@ -131,13 +124,22 @@ const experiences = {
     {
       role: 'Back-End Engineer',// Here Add Company Name
       companylogo: require('../assets/img/tekkon.jpg'),
-      date: 'SEPT 2019 – OCT 2020'
+      date: 'SEPT 2019 – OCT 2020',
+      name: "Tekkon Technologies "
     },
     {
       role: 'Back-End Engineer',
       companylogo: require('../assets/img/fritsgo.png'),
-      date: 'OCT 2020 – Present'    
+      date: 'OCT 2020 – Sep 2022',
+      name: "FritsGo"    
     },
+    {
+      role: 'Software Engineer',
+      companylogo: require('../assets/img/mps.png'),
+      date: 'Jul 2023 - Present',
+      name: "Motion Picture Solutions"
+
+    }
   ]
 }
 

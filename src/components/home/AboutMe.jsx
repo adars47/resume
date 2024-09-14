@@ -1,6 +1,4 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
-
 import axios from "axios";
 
 const pictureLinkRegex = new RegExp(
@@ -27,7 +25,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
     } catch (error) {
       setShowPic(false);
-      console.error(error.message);
     }
   };
 
@@ -50,6 +47,8 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <div className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
             <p className="lead text-center">{message}</p>
+            <br></br>
+            <p className="lead text-center"> <b> Location: London, United Kingdom </b> <br></br> (open to relocation) </p>
             {resume && (
               <p className="lead text-center">
                 <a

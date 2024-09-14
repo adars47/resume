@@ -10,6 +10,7 @@
     "url": "https://github.com/hashirshoaeb"
   },
   "dependencies": {
+    "ansi-regex": "^6.1.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
     "gh-pages": "^2.2.0",
