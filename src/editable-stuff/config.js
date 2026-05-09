@@ -43,7 +43,7 @@ const about = {
   imageLink: require("../editable-stuff/adarsha.png"),
   imageSize: 375,
   message:
-    "I have been working in the software development industry for "+yoe+" years now. Eventhough my focus has been backend technology, I have experience with react and i am interested in system design. My hobbies include hiking, self hosting tools on my homelab and Internet of things.",
+    "I have been working in the software development industry for "+yoe+" years now. Eventhough my focus has been backend technology and cloud. I have experience with react and i am interested in system design. My hobbies include hiking, self hosting tools on my homelab and Internet of things.",
   resume: "https://drive.google.com/file/d/1xu6ARJnSZLTLoB982joM0e0KrVO5C5Ii/view?usp=sharing",
 };
 
